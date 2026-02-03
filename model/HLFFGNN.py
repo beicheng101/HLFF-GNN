@@ -7,7 +7,7 @@ from torch.nn import Module, Parameter, Linear, Sequential, LogSoftmax
 
 class HLFFGNN(Module):
     def __init__(self, n, nclass, nfeat, nlayer, lambda_1, lambda_2, lambda_3, alpha, dropout):
-        super(GNNBC, self).__init__()
+        super(HLFFGNN, self).__init__()
         self.n = n
         self.lambda_1 = lambda_1
         self.lambda_2 = lambda_2
