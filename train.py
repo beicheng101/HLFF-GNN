@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import manifold
 from hps import get_hyper_param
-from model.HLFF-GNN import GNNBC
+from model.HLFFGNN import HLFFGNN
 from util import load_dataset, root, get_mask, get_accuracy, set_seed
 
 parser = argparse.ArgumentParser()
