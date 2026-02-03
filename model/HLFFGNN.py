@@ -5,7 +5,7 @@ from torch import Tensor
 from torch.nn import Module, Parameter, Linear, Sequential, LogSoftmax
 
 
-class HLFF-GNN(Module):
+class HLFFGNN(Module):
     def __init__(self, n, nclass, nfeat, nlayer, lambda_1, lambda_2, lambda_3, alpha, dropout):
         super(GNNBC, self).__init__()
         self.n = n
